@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(3,30,102,1) 1%, rgba(68,201,255,1) 100%);}
+html{
+    font-size: 65.5%;
+}
+.boxses{
+    padding: 1rem;
+    
+}
+.continer{
+    padding: 6rem 5rem;
+
+
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 4rem 1rem;
+}
+.box-left{
+width: 20%;
+text-align: center;
+height: 300px;
+padding: 5rem 0 3rem 0;
+}
+img{
+    width: 18%;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+}
+@keyframes slidein {
+    0% {
+        transform:translatey(0) ;
+    }
+  
+    100% {
+        transform:translatey(-5px) ;
+    }
+  }
+
+
+.box-left h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fffddf;
+    margin: 1rem 0 2rem 0;
+}
+.box-left p{
+    color: #fffddf;
+    font-size: 1.5rem;
+}
+.box-left button{
+    color: #0b1f4b;
+    font-size: 1.4rem;
+    background-color: #fffddf;
+    padding: .5rem 3.8rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: none;
+    margin-top: 12rem;
+    
+}
+
+
+
+.box-right{
+    width: 72%;
+    background-color: #fdfcf2;
+    border-radius: 90px 5px 5px 90px / 250px 5px 5px 250px;
+    padding-bottom:10rem ;
+}
+.box-right-btn{
+    text-align: right;
+    padding: 2rem ;
+}
+.box-right-btn span{
+    background-color: rgb(18, 55, 156);
+    padding: .3rem ;
+    display: inline-block;
+    border-radius: 3rem;
+
+}
+.box-right-btn span button:nth-child(1){
+    background-color: rgb(255, 253, 253);
+    padding: .4rem 1.5rem;
+    color: rgb(45, 45, 216);
+cursor: pointer;
+border: none;
+border-radius: 3rem;
+
+}
+.box-right-btn span button:nth-child(2){
+    background-color: transparent;
+    padding: .4rem 1.5rem;
+    color: rgb(240, 240, 255);
+cursor: pointer;
+border: none;
+border-radius: 3rem;
+
+}
+      
+.box-right h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(29, 29, 29);
+    margin: 0;
+}
+.forms{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+
+    margin-top:2rem ;
+}
+.form1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+input:focus{
+    border: 1px solid rgb(16, 158, 240);
+outline: none;
+}
+.form-class{
+    width: 40%;
+    margin: 1rem 0;
+    padding: .5rem .5rem;
+}
+.form-select{
+    width: 42%;
+    margin: 1rem 0;
+}
+span{
+    font-size:1.4rem ;
+    color: rgb(65, 65, 65);
+}
+.redios{
+    margin-top: .5rem;
+}
+
+#submit{
+color: rgb(241, 241, 241);
+background-color: rgb(0, 68, 255);
+padding: .7rem 3.5rem;
+border-radius: 3rem;
+border: none;cursor: pointer;
+
+}
+
+
+.submit{
+    width: 95%;
+    margin:0 4rem ;
+    text-align: right;
+}
+
